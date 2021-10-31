@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_pengelola"
+            android:icon="@drawable/ic_dosen"
+            android:title="@string/menu_pengelola" />
+        <item
+            android:id="@+id/nav_kurikulum"
+            android:icon="@drawable/ic_kurikulum"
+            android:title="@string/menu_kurikulum" />
+        <item
+            android:id="@+id/nav_lulusan"
+            android:icon="@drawable/ic_lulus"
+            android:title="@string/menu_lulusan" />
+        <item
+            android:id="@+id/nav_fasilitas"
+            android:icon="@drawable/ic_fasilitas"
+            android:title="@string/menu_fasilitas" />
+    </group>
+</menu>
